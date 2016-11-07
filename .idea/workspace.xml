@@ -37,8 +37,8 @@
       <file leaf-file-name="products.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="167" column="76" selection-start-line="167" selection-start-column="76" selection-end-line="167" selection-end-column="76" />
+            <state relative-caret-position="427">
+              <caret line="378" column="19" selection-start-line="378" selection-start-column="19" selection-end-line="378" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -258,12 +258,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478517020360</updated>
-      <workItem from="1478517023069" duration="6311000" />
+      <workItem from="1478517023069" duration="7804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6311000" />
+    <option name="totallyTimeSpent" value="7804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -325,10 +325,15 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/images/products/red_kidney_beans.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="167" column="76" selection-start-line="167" selection-start-column="76" selection-end-line="167" selection-end-column="76" />
+        <state relative-caret-position="427">
+          <caret line="378" column="19" selection-start-line="378" selection-start-column="19" selection-end-line="378" selection-end-column="19" />
           <folding />
         </state>
       </provider>
