@@ -53,3 +53,37 @@
     border: 2px solid #94CF43;
     border-radius: 1.3px;
 }
+
+/*  IN THIS SECTION WE STYLE THE TEAM MEMBERS SECTION WITH THEIR INFORMATION
+
+*/
+
+/* tell the container's children to float left: */
+.team_child > * {
+    float:left;
+    margin-right:5px;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.team {
+    *zoom:1 /* for IE */
+}
+
+.team:before,
+.team:after {
+    content: " ";
+    display: table;
+}
+
+.team:after {
+    clear: both;
+}
+
+/* end clearfix*/
+
+/* below is just to make things easier to see, not required */
+
+.person_box_image {
+
+}
