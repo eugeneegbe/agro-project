@@ -10,7 +10,7 @@
 <meta charset="utf-8"/>
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width"/>
-<title>Welcome to Agro Cam Co, LTD. - Eat Clean and Green. Simply Good!</title>
+<title>Welcome to AgroCam Co, LTD. - Agricultural Product Distribution Made Simple!</title>
 <!-- CSS Files-->
 <link rel="stylesheet" href="stylesheets/style.css">
 <link rel="icon" type="image/png" href="images/icons/favicon.png" />
@@ -21,6 +21,11 @@
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+
+	<!--  This is the css for styling the menu
+	-->
+
+	<link rel="stylesheet" href="stylesheets/menu_style.css">
 </head>
 <body>
 <!-- HIDDEN PANEL 
@@ -57,9 +62,18 @@
 			<li>
 			<a href="products.html">Products</a>
 			</li>
-			<li><a href="about.html">About us</a></li>
+			<div class="dropdown">
+				<li><a href="about.html" class="dropbtn" >About us</a>
+					<div class="dropdown-content">
+						<a href="#">About AGROCAM</a>
+						<a href="#">Our Team</a>
+						<a href="#">Our Experts</a>
+					</div>
+				</li>
+	      	</div>
+
 			<li><a href="services.html">Services</a></li>
-			
+
 			<li>
 			<a href="contact.html">Contact</a>
 			</li>
@@ -72,7 +86,7 @@
 <!-- SLIDER 
 ================================================== -->
 <div id="ei-slider" class="ei-slider">
-	<ul class="ei-slider-large">
+		<ul class="ei-slider-large">
 		<li>
 		<img src="images/slideshow/1.jpg" alt="image01" class="responsiveslide">
 		<div class="ei-title">
