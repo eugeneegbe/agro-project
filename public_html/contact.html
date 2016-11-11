@@ -21,6 +21,11 @@
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+
+	<!--  This is the css for styling the menu
+	-->
+
+	<link rel="stylesheet" href="stylesheets/menu_style.css">
 </head>
 <body>
 <!-- HIDDEN PANEL 
@@ -41,29 +46,39 @@
 <!-- HEADER
 ================================================== -->
 <div class="row">
-	<div class="headerlogo four columns">
+	<div class="headerlogo six columns">
 		<div class="logo">
 			<a href="index.html">
-			<img src="images/logo-new.png" alt="Agro Cam Co, LTD. logo"/>
+				<img src="images/logo-new.png" alt="Agro Cam Co, LTD. logo"/>
 			</a>
 		</div>
 	</div>
-	<div class="headermenu eight columns noleftmarg">
+	<div class="headermenu six columns noleftmarg">
 		<nav id="nav-wrap">
-		<ul id="main-menu" class="nav-bar sf-menu">
-			<li class="current">
-			<a href="index.html">Home</a>
-			</li>
-			<li>
-			<a href="products.html">Products</a>
-			</li>
-			<li><a href="about.html">About us</a></li>
-			<li><a href="services.html">Services</a></li>
-			
-			<li>
-			<a href="contact.html">Contact</a>
-			</li>
-		</ul>
+			<ul id="main-menu" class="nav-bar sf-menu">
+				<li class="current">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="products.html">Products</a>
+				</li>
+
+				<div class="dropdown">
+					<li><a href="about.html" class="dropbtn" >About us</a>
+						<div class="dropdown-content">
+							<a href="#">About AGROCAM</a>
+							<a href="#">Our Team</a>
+							<a href="#">Our Experts</a>
+						</div>
+					</li>
+				</div>
+
+				<li><a href="services.html">Services</a></li>
+
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
 		</nav>
 	</div>
 </div>

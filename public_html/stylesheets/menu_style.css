@@ -48,3 +48,8 @@
 .dropdown:hover .dropbtn {
     color: #94cf43;
 }
+
+.social_media_box{
+    border: 2px solid #94CF43;
+    border-radius: 1.3px;
+}

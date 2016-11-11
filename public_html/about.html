@@ -21,6 +21,10 @@
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+
+	<!--  This is the css for styling the menu
+	-->
+	<link rel="stylesheet" href="stylesheets/menu_style.css">
 </head>
 <body>
 <!-- HIDDEN PANEL 
@@ -41,29 +45,39 @@
 <!-- HEADER
 ================================================== -->
 <div class="row">
-	<div class="headerlogo four columns">
+	<div class="headerlogo six columns">
 		<div class="logo">
 			<a href="index.html">
-			<img src="images/logo-new.png" alt="Agro Cam Co, LTD. logo"/>
+				<img src="images/logo-new.png" alt="Agro Cam Co, LTD. logo"/>
 			</a>
 		</div>
 	</div>
-	<div class="headermenu eight columns noleftmarg">
+	<div class="headermenu six columns noleftmarg">
 		<nav id="nav-wrap">
-		<ul id="main-menu" class="nav-bar sf-menu">
-			<li class="current">
-			<a href="index.html">Home</a>
-			</li>
-			<li>
-			<a href="products.html">Products</a>
-			</li>
-			<li><a href="about.html">About us</a></li>
-			<li><a href="services.html">Services</a></li>
-			
-			<li>
-			<a href="contact.html">Contact</a>
-			</li>
-		</ul>
+			<ul id="main-menu" class="nav-bar sf-menu">
+				<li class="current">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="products.html">Products</a>
+				</li>
+
+				<div class="dropdown">
+					<li><a href="about.html" class="dropbtn" >About us</a>
+						<div class="dropdown-content">
+							<a href="about.html">About AGROCAM</a>
+							<a href="#">Our Team</a>
+							<a href="#">Our Experts</a>
+						</div>
+					</li>
+				</div>
+
+				<li><a href="services.html">Services</a></li>
+
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
 		</nav>
 	</div>
 </div>
@@ -72,14 +86,12 @@
 <!-- SUBHEADER
 ================================================== -->
 <div id="subheader">
-	<div class="row">
-		<div class="twelve columns">
+	<div class="row centered">
+		<div class="twelve columns ">
 			<p class="left">
-				 ABOUT US
+				 ABOUT AGROCAM
 			</p>
-			<p class="right">
-				 Meet Our Team
-			</p>
+
 		</div>
 	</div>
 </div>
@@ -89,62 +101,112 @@
 ================================================== -->
 <div class="row">
     <!-- MAIN CONTENT-->
-	<div class="eight columns">
+	<div class="sectiontitle">
+		<h4> AGROCAM COMPANY LTD</h4>
+			<div style="float:right">
+				<h4>AGROCAM on Social Media</h4>
+			</div>
+	</div>
+	<div class="eight columns" style="width: 685px">
 	    <!-- Our History-->
+
+		<p>
+			The agricultural product distribution company for small and large scale farmers and food processors in Cameroon and Overseas
+		</p>
 		<div class="sectiontitle">
-			<h4>Our History</h4>
+			<h4>Why AGROCAM ?</h4>
 		</div>
-		<p>
-			 Mrs. Delorane had died of decline: people would say to one another, in confidence, they hoped Ellin might escape it. The largest and <b>best farm</b> in the neighbourhood of Timberdale, larger than even that of the Ashtons, was called the Dower Farm.
-		</p>
-		<p>
-			 Out-of-doors he was the keen, active, thorough farmer; indoors he lived as a gentleman. He had four children: three boys and one girl. Nothing must prevent her journey upon the desert!
-		</p>
-		<div class="panel">
-			<p>
-				<b>Phasellus luctus ante in eros suscipit aliquet. Donec convallis scelerisque tellus, quis vulputate lacus laoreet sed. Mauris vitae ultricies neque. Nullam arcu neque, posuere et accumsan quis, euismod id leo. Donec tristique, nisi vel tincidunt faucibus, velit eros pulvinar leo, in sollicitudin nisi nibh ac arcu.</b>
-			</p>
-			<p class="text-right">
-				<i>Ray Singer, Manager at "Studio Francesca"</i>
-			</p>
+
+		<p><b>
+			want access to better markets but they lack the skills and resources needed to effectively market and distribute their products.
+			On the other hand, Buyers want access to reliable suppliers but are faced with the challenge of developing sustainable supply chains with multiple smallholder farmers.		</b></p>
+
+		<div class="sectiontitle">
+			<h4>How AGROCAM Facilitates Buyer to Farmer Relations</h4>
 		</div>
-		<p>
-			 From her window she looked out toward it, so wonderful, so superb, so exquisite, weird and beautiful. Exactly, she told herself, like a big, black smudge.
-		</p>
-		<br/>
 		<!-- Accordion-->
-		<dl class="tabs">
-			<dd class="active"><a href="#simple1">Why choose us</a></dd>
-			<dd><a href="#simple2">How we work</a></dd>
-			<dd><a href="#simple3">Completion time</a></dd>
-			<dd><a href="#simple3">Prices and budget</a></dd>
+		<dl class="tabs" >
+			<dd class="active"><a href="#simple1">Attract</a></dd>
+			<dd ><a href="#simple2" >Mediate</a></dd>
+			<dd><a href="#simple4">Production Management</a></dd>
+			<dd><a href="#simple3">Transport/Distribution</a></dd>
+			<!--<dd><a href="#simple3">Transportation/Distribution</a></dd>-->
 		</dl>
+		<br>
 		<ul class="tabs-content">
 			<li class="active" id="simple1Tab">
-			<p>
-				 This is simple tab 1's content. Pretty neat, huh? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum.
-			</p>
-			<p>
-				 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt. Sit enim idem caecus, debilis. Duo Reges: constructio interrete.
-			</p>
-			<p>
-				 Sit enim idem caecus, debilis. Duo Reges: constructio interrete.
-			</p>
+				<p>
+					We attract buyers and encourage youths into agriculture through inbound marketing and counseling.
+				</p>
+
 			</li>
-			<li id="simple2Tab">This is simple tab 2's content. Now you see it! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum.</li>
-			<li id="simple3Tab">This is simple tab 3's content. It's, you know...okay. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum.</li>
-			<li id="simple4Tab">This is simple tab 3's content. It's, you know...okay. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum.</li>
+			<li id="simple2Tab">We help establish sustainable buyer/producer relationships between through networking and mediation.</li>
+			<li id="simple3Tab">We accompany farmers in production(financing, capacity building, and interventions) to ensure good quality and yield.</li>
+			<li id="simple4Tab">Finally, we help farmers deliver or transport crops to the buyer or consumer.</li>
 		</ul>
+
+		<div class="sectiontitle">
+			<h4>What AGROCAM Entails</h4>
+		</div>
+
+		<p>
+			An agricultural marketing and distribution agency working to help small scale farmers (and food processors) gain access to profitable sustainable markets.
+			We work to build long term sustainable relationships between the farmers and buyers.
+		</p>
+
+		<div class="panel">
+			<div class="sectiontitle">
+				<h4>Our Vision and Mission</h4>
+			</div>
+			<p>
+				<b>AGROCAM COMPANY LTD was founded in 2012 after an observation that Cameroon’s agriculture lags because of an abject lack in marketing and distribution infrastructure.
+					Marketing and Sales cannot happen without the exchange of information, yet it is still difficult to access relevant authoritative content on agriculture in Cameroon.
+					It is this finding that led the founding members to create an agency with theinable supply chains with multiple smallholder farmers..</b></p>
+			</p>
+			<div class="sectiontitle">
+				<h4>Historical Review</h4>
+			</div>
+			<p>
+				<b>
+					AGROCAM COMPANY LTD was founded in 2012 as a Common Initiative Group (CIG) with headquarter in Bamenda. AGROCAM was later upgraded to a Cooperative Society Limited with Board of Directors in 2013.
+					AGROCAM currently employs 8 and networks with a pool of experts and consultants from the fields of Agriculture, Food Processing, Marketing, Supply Chain Management, Project Management, Finance, ICT and Graphics Design.
+					AGROCAM COMPANY LTD  has direct access to nearly 2,000 farmers in Fako Division through their farmer cooperative body and can access over 8,000 farmers in the South West Region indirectly through agricultural extension workers who are part of our partner network.
+					We share an office space with HIPDET polytechnic for higher education Mile 4 Bamenda Cameroon and another office operating at AKWA Douala Cameroon.
+				</b>
+			</p>
+			</p>
+
+			<br>
+			<div class="sectiontitle">
+				<h4>Timeline and Milestones</h4>
+			</div>
+
+			<p>
+				<br><b>2012 – 2013</b><br><br>
+				Bridging information divide by delivering agricultural marketing information to farmers directly to their mobile phone.
+				Developed an SMS Desktop application called CANSMS to manage and deliver SMS to farmers via SMS Tweets.
+				<br><b>2014</b><br><br>
+				Provided a storehouse as a temporal storage solution for rural farmers in Momo community. The storehouse was later transformed into a fresh food store.
+				<br><b>2015</b><br><br>
+				Focus is on inbound marketing for agriculture in Cameroon to provide valuable relevant content for persons who want to buy agricultural products from Cameroon or persons who wishing to invest in agriculture in the country.
+				We are working with small and large scale farmers and buyers to build resilient and sustainable supply chains.
+			</p>
+
+		</div>
+
+		<br/>
+
+
 	</div><!-- end main content-->
 
 	<!-- SIDEBAR-->
-	<div class="four columns">
-		<div class="teamwrap teambox">
+	<div class="four columns" style="width: 250px">
+		<div class="teamwrap teambox social_media_box">
 			<img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/team1.jpg" alt="">
-			<div class="mask">
-				<h2>Katrina Bernski</h2>
+			<div class="mask" >
+				<h2>Our Team</h2>
 				<p>
-					One of our best shooting model, working for this company since the beginning.
+					Those who are the driving force behind AGROCAM.
 					<div class="social socialteam facebook">
 						<a href="#"></a>
 					</div>
@@ -162,12 +224,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="teamwrap teambox">
+			<div class="teamwrap teambox social_media_box" >
 				<img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/team2.jpg" alt="">
 				<div class="mask">
-					<h2>Yolanda Bernski</h2>
+					<h2>Our Experts</h2>
 					<p>
-						One of our best shooting model, working for this company since the beginning.
+						Our very good experts who drive AGROCAM ahead
 						<div class="social socialteam facebook">
 							<a href="#"></a>
 						</div>
@@ -185,12 +247,12 @@
 						</div>
 					</div>
 			</div>
-			<div class="teamwrap teambox">
+			<div class="teamwrap teambox social_media_box" >
 					<img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/team3.jpg" alt="">
 					<div class="mask">
-						<h2>Luna Galliano</h2>
+						<h2>Other Alliances</h2>
 						<p>
-							One of our best shooting model, working for this company since the beginning.
+							Our partners and supporters who support the AGROCAM project
 							<div class="social socialteam facebook">
 								<a href="#"></a>
 							</div>
