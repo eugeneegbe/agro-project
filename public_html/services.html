@@ -7,30 +7,36 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
-<meta charset="utf-8"/>
-<!-- Set the viewport width to device width for mobile -->
-<meta name="viewport" content="width=device-width"/>
-<title>Services :: Agro Cam Co, LTD. - Eat Clean and Green. Simply Good!</title>
-<!-- CSS Files-->
-<link rel="stylesheet" href="stylesheets/style.css">
-<link rel="icon" type="image/png" href="images/icons/favicon.png" />
-<link rel="stylesheet" href="stylesheets/skins/green.css">
-<!-- skin color -->
-<link rel="stylesheet" href="stylesheets/responsive.css">
-<!-- IE Fix for HTML5 Tags -->
-<!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+	<meta charset="utf-8"/>
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width"/>
+	<title>Products :: Agro Cam Co, LTD. - Eat Clean and Green. Simply Good!</title>
+	<!-- CSS Files-->
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
+	<link rel="stylesheet" href="stylesheets/skins/green.css">
+	<!-- skin color -->
+	<link rel="stylesheet" href="stylesheets/responsive.css">
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--  This is the css for styling the menu
+	-->
+
+	<link rel="stylesheet" href="stylesheets/menu_style.css">
+
 </head>
 <body>
-<!-- HIDDEN PANEL 
+<!-- HIDDEN PANEL
 ================================================== -->
 <div id="panel">
 	<div class="row">
 		<div class="twelve columns">
 			<img src="http://www.wowthemes.net/demo/studiofrancesca/images/info.png" class="pics" alt="info">
 			<div class="infotext">
-				 Please avoid scammers. All communications must be using info@agro-cam.com.
+				Please avoid scammers. All communications must be using info@agro-cam.com.
 			</div>
 		</div>
 	</div>
@@ -41,34 +47,44 @@
 <!-- HEADER
 ================================================== -->
 <div class="row">
-	<div class="headerlogo four columns">
+	<div class="headerlogo six columns">
 		<div class="logo">
 			<a href="index.html">
-			<img src="images/logo-new.png" alt="Agro Cam Co, LTD. logo"/>
+				<img src="images/logo-new.png" alt="Agro Cam Co, LTD. logo"/>
 			</a>
 		</div>
 	</div>
-	<div class="headermenu eight columns noleftmarg">
+	<div class="headermenu six columns noleftmarg">
 		<nav id="nav-wrap">
-		<ul id="main-menu" class="nav-bar sf-menu">
-			<li class="current">
-			<a href="index.html">Home</a>
-			</li>
-			<li>
-			<a href="products.html">Products</a>
-			</li>
-			<li><a href="about.html">About us</a></li>
-			<li><a href="services.html">Services</a></li>
-			
-			<li>
-			<a href="contact.html">Contact</a>
-			</li>
-		</ul>
+			<ul id="main-menu" class="nav-bar sf-menu">
+				<li class="current">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="products.html">Products</a>
+				</li>
+
+				<div class="dropdown">
+					<li><a href="about.html" class="dropbtn" >About us</a>
+						<div class="dropdown-content">
+							<a href="about.html">About AGROCAM</a>
+							<a href="team.html">Our Team</a>
+							<a href="experts.html">Our Experts</a>
+						</div>
+					</li>
+				</div>
+
+				<li><a href="services.html">Services</a></li>
+
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
 		</nav>
 	</div>
 </div>
 <div class="clear">
-</div>
+
 <!-- SUBHEADER
 ================================================== -->
 <div id="subheader">
@@ -180,48 +196,48 @@
 <div class="hr">
 </div>
 
-<!-- FOOOTER 
-================================================== -->
-<div id="footer">
-	<footer class="row">
-	<p class="back-top floatright">
-		<a href="#top"><span></span></a>
-	</p>
-	<div class="four columns">
-		<h1>ABOUT US</h1>
-		 Our goal is to keep clients satisfied!
-	</div>
-	<div class="four columns">
-		<h1>GET SOCIAL</h1>
-		<a class="social facebook" href="#"></a>
-		<a class="social twitter" href="#"></a>
-		<a class="social deviantart" href="#"></a>
-		<a class="social flickr" href="#"></a>
-		<a class="social dribbble" href="#"></a>
-	</div>
-	<div class="four columns">
-		<h1 class="newsmargin">NEWSLETTER</h1>
-		<div class="row collapse newsletter floatright">
-			<div class="ten mobile-three columns">
-				<input type="text" class="nomargin" placeholder="Enter your e-mail address...">
+	<!-- FOOOTER
+    ================================================== -->
+	<div id="footer">
+		<footer class="row">
+			<p class="back-top floatright">
+				<a href="#top"><span></span></a>
+			</p>
+			<div class="four columns">
+				<h1>ABOUT US</h1>
+				Our goal is to keep clients satisfied!
 			</div>
-			<div class="two mobile-one columns">
-				<a href="#" class="postfix button expand">GO</a>
+			<div class="four columns">
+				<h1>GET SOCIAL</h1>
+				<a class="social facebook" href="#"></a>
+				<a class="social twitter" href="#"></a>
+				<!--<a class="social deviantart" href="#"></a>-->
+				<a class="social flickr" href="#"></a>
+				<!--<a class="social dribbble" href="#"></a>-->
+			</div>
+			<div class="four columns">
+				<h1 class="newsmargin">NEWSLETTER</h1>
+				<div class="row collapse newsletter floatright">
+					<div class="ten mobile-three columns">
+						<input type="text" class="nomargin" placeholder="Enter your e-mail address...">
+					</div>
+					<div class="two mobile-one columns">
+						<a href="#" class="postfix button expand">GO</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="copyright">
+		<div class="row">
+			<div class="six columns">
+				&copy;<span class="small"> Copyright Agro Cam Co,Ltd.</span>
+			</div>
+			<div class="six columns">
+				<span class="small floatright">Engineered by <a target="_blank" href="#">Eugene Egbe</a> </span>
 			</div>
 		</div>
 	</div>
-	</footer>
-</div>
-<div class="copyright">
-	<div class="row">
-		<div class="six columns">
-			 &copy;<span class="small"> Copyright 2015 Your Agency Name</span>
-		</div>
-		<div class="six columns">
-			<span class="small floatright"> Template by <a href="www.wowthemes.net">WowThemes.net</a></span>
-		</div>
-	</div>
-</div>
 <!-- JAVASCRIPTS 
 ================================================== -->
 <!-- Javascript files placed here for faster loading -->
